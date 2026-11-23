@@ -55,110 +55,96 @@ Here you can explore some of my personal and professional software development p
 ### ☕ Java Projects
 
 #### 1. E-Commerce Management API
-**Description:** A RESTful API designed to manage an e-commerce platform, including products, customers, orders, and payments.
+**Description:** A RESTful API that retrieves a list of similar products based on a given product ID, providing essential product information such as name, price, and availability.
 
 **Technologies:**
-- Java 21
-- Spring Boot
-- Spring Security
-- PostgreSQL
-- Docker
-- JUnit 5
+- Java 17
+- Spring Boot 4
+- Maven 3.9+
+- REST API
+- JSON
 
 **Key Features:**
-- User authentication and authorization.
-- Product and inventory management.
-- Order processing and tracking.
-- REST API documentation with Swagger.
-- Unit and integration testing.
+- Retrieve similar products by product ID.
+- Return detailed product information.
+- Check product availability.
+- JSON-based API responses.
+- API documentation.
 
-🔗 [View Repository](https://github.com/CiroSmith/java-ecommerce-api)
+🔗 [View Repository](https://github.com/jedaro/AppProducts)
 
 ---
 
 #### 2. Banking Transaction System
-**Description:** A backend application for managing financial transactions, accounts, and customer operations.
+**Description:** A RESTful API developed with Spring Boot to manage and retrieve product information, inventory, and customer-related products. The application uses an H2 in-memory database for data persistence and management.
 
 **Technologies:**
-- Java
+- Java 17
 - Spring Boot
-- Spring Data JPA
-- Oracle Database
+- Spring Framework
+- Maven 3.6.3+
+- H2 Database
+- REST API
 - Docker
 
 **Key Features:**
-- Account management.
-- Money transfers.
-- Transaction history.
-- Business validation and exception handling.
+- Retrieve product inventory by company ID.
+- Get customer-related products.
+- Retrieve product codes by company ID.
+- H2 database integration.
+- Unit and integration testing.
+- Maven-based build and dependency management.
 
-🔗 [View Repository](https://github.com/CiroSmith/java-banking-system)
+🔗 [View Repository](https://github.com/jedaro/products)
 
 ---
 
 ### 🐍 Python Projects
 
 #### 3. Data Analytics & Automation Platform
-**Description:** A Python application designed to process, analyze, and visualize structured data, automating repetitive business processes.
+**Description:** A Python-based REST API that calculates Body Mass Index (BMI) based on user-provided weight and height. It also provides a web interface and allows users to send their BMI results via email.
 
 **Technologies:**
-- Python
-- Pandas
+- Python 3.12
 - FastAPI
-- PostgreSQL
-- Docker
+- Uvicorn
+- Pytest
+- SMTP
+- HTML / CSS / JavaScript
 
 **Key Features:**
-- Data extraction and transformation.
-- Automated data processing.
-- REST API integration.
-- Data analysis and reporting.
+- Calculate BMI using weight and height.
+- RESTful API endpoints.
+- Interactive web interface.
+- Send BMI results via email.
+- API documentation with Swagger UI.
+- Automated tests using Pytest.
 
-🔗 [View Repository](https://github.com/CiroSmith/python-data-platform)
+🔗 [View Repository](https://github.com/jedaro/bmi-calculator)
 
 ---
 
 ### 🟢 Node.js Projects
 
 #### 4. Task Management API
-**Description:** A backend service for managing projects, tasks, users, and team collaboration.
+**Description:** A RESTful API that analyzes a human DNA sequence to determine whether an individual is a mutant or a human, based on specific genetic sequence patterns.
 
 **Technologies:**
 - Node.js
+- TypeScript
 - Express.js
 - MongoDB
-- JWT
-- Jest
+- REST API
 
 **Key Features:**
-- User registration and authentication.
-- Project and task management.
-- Role-based access control.
-- API testing.
+- Analyze DNA sequences.
+- Identify mutant or human DNA patterns.
+- RESTful API endpoints.
+- MongoDB integration.
+- TypeScript-based development.
+- MIT License.
 
-🔗 [View Repository](https://github.com/CiroSmith/nodejs-task-manager)
-
----
-
-### 🔷 TypeScript Projects
-
-#### 5. Project Management Dashboard
-**Description:** A modern web application for managing projects, monitoring progress, and visualizing business metrics.
-
-**Technologies:**
-- TypeScript
-- React
-- Node.js
-- REST APIs
-- PostgreSQL
-
-**Key Features:**
-- Interactive dashboard.
-- Project and task tracking.
-- Data visualization.
-- Responsive interface.
-
-🔗 [View Repository](https://github.com/CiroSmith/typescript-project-dashboard)
+🔗 [View Repository](https://github.com/jedaro/app-adn)
 
 ---
 
