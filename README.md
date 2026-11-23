@@ -8,6 +8,11 @@ I am a Software Engineer passionate about building scalable, maintainable, and h
 
 My main focus is developing solutions using **Java, Spring Boot, Python, Node.js, and TypeScript**, following software engineering best practices and clean architecture principles.
 
+| Java 8-21 & Spring Boot | Microservices, REST & gRPC APIs | Azure \| AWS API Gateway & Lambda |
+|---|---|---|
+| DDD & Hexagonal Architecture | Oracle & NoSQL databases | Agile / Scrum |
+| Azure DevOps & CI/CD | GitHub Copilot & AI-assisted development | Backend engineering |
+
 ---
 
 ## 🛠️ Tech Stack
